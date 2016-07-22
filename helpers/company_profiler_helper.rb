@@ -18,8 +18,8 @@ module CompanyProfiler
       {
         'v' => '1',
         'format' => 'json',
-        't.p' => "#{$GLASSDOOR_ID}",
-        't.k' => "#{$GLASSDOOR_KEY}",
+        't.p' => "#{GLASSDOOR_ID}",
+        't.k' => "#{GLASSDOOR_KEY}",
         'action' => 'employers',
         'q' => "#{company}"
       }
